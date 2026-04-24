@@ -7,7 +7,7 @@ const app = express(); //
 
 app.use(express.json());
 
-// ROTAS 👇 (agora sim funciona)
+
 app.use('/usuarios', require('./src/routes/userRoutes'));
 app.use('/produtos', require('./src/routes/produtoRoutes'));
 app.use('/pedidos', require('./src/routes/pedidoRoutes'));
